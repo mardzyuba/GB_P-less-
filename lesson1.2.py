@@ -2,11 +2,9 @@
 # Переведите время в часы, минуты и секунды и выведите в формате чч:мм:сс.
 # Используйте форматирование строк.
 
-import datetime
-
 second = int(input("Ввести количество секунд >>>>"))
 h = (second // 3600)
 m = (second % 3600) // 60
 s = second % 60
 
-print(format(datetime.time(h, m, s)))
+print(f"Время в формате чч:мм:сс   {hours} : {minutes} : {seconds}")
